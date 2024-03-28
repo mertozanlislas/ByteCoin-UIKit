@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1863298A2BB5800200DDAA2F /* RateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186329892BB5800200DDAA2F /* RateManager.swift */; };
+		1863298D2BB584EB00DDAA2F /* RateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863298C2BB584EB00DDAA2F /* RateData.swift */; };
 		1893A9342BB4CC4A00ECB956 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1893A9332BB4CC4A00ECB956 /* AppDelegate.swift */; };
 		1893A9362BB4CC4A00ECB956 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1893A9352BB4CC4A00ECB956 /* SceneDelegate.swift */; };
 		1893A9382BB4CC4A00ECB956 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1893A9372BB4CC4A00ECB956 /* ViewController.swift */; };
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		186329892BB5800200DDAA2F /* RateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateManager.swift; sourceTree = "<group>"; };
+		1863298C2BB584EB00DDAA2F /* RateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateData.swift; sourceTree = "<group>"; };
+		1863298F2BB5CDBE00DDAA2F /* KaushanScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaushanScript-Regular.ttf"; sourceTree = "<group>"; };
 		1893A9302BB4CC4A00ECB956 /* ByteCoin-UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ByteCoin-UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1893A9332BB4CC4A00ECB956 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1893A9352BB4CC4A00ECB956 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +81,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		186329862BB57FB800DDAA2F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1893A9372BB4CC4A00ECB956 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		186329872BB57FC700DDAA2F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1893A9392BB4CC4A00ECB956 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		186329882BB57FD600DDAA2F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				186329892BB5800200DDAA2F /* RateManager.swift */,
+				1863298C2BB584EB00DDAA2F /* RateData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1863298E2BB5CDA400DDAA2F /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1863298F2BB5CDBE00DDAA2F /* KaushanScript-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		1893A9272BB4CC4A00ECB956 = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +137,12 @@
 		1893A9322BB4CC4A00ECB956 /* ByteCoin-UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				1863298E2BB5CDA400DDAA2F /* fonts */,
 				1893A9332BB4CC4A00ECB956 /* AppDelegate.swift */,
 				1893A9352BB4CC4A00ECB956 /* SceneDelegate.swift */,
-				1893A9372BB4CC4A00ECB956 /* ViewController.swift */,
-				1893A9392BB4CC4A00ECB956 /* Main.storyboard */,
+				186329882BB57FD600DDAA2F /* Models */,
+				186329862BB57FB800DDAA2F /* Controllers */,
+				186329872BB57FC700DDAA2F /* Views */,
 				1893A93C2BB4CC4C00ECB956 /* Assets.xcassets */,
 				1893A93E2BB4CC4C00ECB956 /* LaunchScreen.storyboard */,
 				1893A9412BB4CC4C00ECB956 /* Info.plist */,
@@ -260,7 +300,9 @@
 			files = (
 				1893A9382BB4CC4A00ECB956 /* ViewController.swift in Sources */,
 				1893A9342BB4CC4A00ECB956 /* AppDelegate.swift in Sources */,
+				1863298D2BB584EB00DDAA2F /* RateData.swift in Sources */,
 				1893A9362BB4CC4A00ECB956 /* SceneDelegate.swift in Sources */,
+				1863298A2BB5800200DDAA2F /* RateManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
